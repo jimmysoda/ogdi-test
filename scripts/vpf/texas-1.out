@@ -1,11 +1,11 @@
 Projection = `+proj=longlat +datum=nad83'
-Global Bounds
+Bounds
 north = 31.250000
 south = 31.000000
 east = -97.500000
 west = -97.750000
-ns_res = 0.010000
-ew_res = 0.010000
+ns_res = 0.010000000
+ew_res = 0.010000000
 UpdateDictionary = 
 
 DATA HEADER TABLE(DHT):
@@ -2166,6 +2166,13 @@ VALUE DESCRIPTION TABLE (int.vdt)
                9 =  Red-Brown                  
               12 =  Magenta                    
 } } }  }
+Bounds
+north = 31.250000
+south = 31.000000
+east = -97.500000
+west = -97.750000
+ns_res = 0.010000000
+ew_res = 0.010000000
 Field 0: id  (Integer) 10.0
 Field 1: f_code  (Char) 5.0
 Field 2: hqc  (Smallint) 5.0
