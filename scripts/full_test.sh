@@ -1,6 +1,6 @@
 #!/bin/sh
 
-. setup.sh
+. ./setup.sh
 
 rm -f ogdi_info.tst
 $OGDI_INFO -help > ogdi_info.tst
