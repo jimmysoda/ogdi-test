@@ -14,7 +14,11 @@ rm -f temp_texas
 
 $OGDI_INFO -u $TEXASH_URL -f Area -l 'contourl@elev(*)' -dl > temp_texas
 
-../test_comp.sh temp_texas texas-1
+grep -v "CURRENT DATABASE" temp_texas > temp2_texas
+
+../test_comp.sh temp2_texas texas-1
+
+rm -f temp_texas temp2_texas
 
 # ----------------------------------------------------------------------------
 # Test lines and that double quoted query values work properly.
