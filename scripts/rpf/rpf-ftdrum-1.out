@@ -47,7 +47,7 @@ ew_res = 0.000456853
 RasterInfo:
 mincat = 1
 maxcat = 254
-width = 1999
+width = 2000
 height = 2000
 cat_len = 254
 0: no=1, rgb=1,1,1  
