@@ -23,11 +23,11 @@ UpdateDictionary(ogdi_capabilities) =
       <FeatureType>
          <Name>DTED(RAM)</Name>
          <SRS>PROJ4:+proj=longlat</SRS>
-         <LongLatBoundingBox minx="-80.000000000"  miny="43.000000000"
-                             maxx="-79.000000000"  maxy="44.000000000" />
-         <SRSBoundingBox minx="-80.000000000"  miny="43.000000000"
-                         maxx="-79.000000000"  maxy="44.000000000"
-                         x_res="0.008264463" y_res="0.008264463" />
+         <LatLonBoundingBox minx="-80.000000000"  miny="43.000000000"
+                            maxx="-79.000000000"  maxy="44.000000000" />
+         <BoundingBox minx="-80.000000000"  miny="43.000000000"
+                      maxx="-79.000000000"  maxy="44.000000000"
+                      resx="0.008264463"  resy="0.008264463" />
          <Family>Matrix</Family>
          <Family>Image</Family>
       </FeatureType>

@@ -8,6 +8,33 @@ ns_res = 0.000138038
 ew_res = 0.000456853
 UpdateDictionary = 
  10M@2@CIB@DMAAC@0 
+Version: `3.1'
+Layer 0: 10M@2@CIB@DMAAC@0
+  SRS: +proj=longlat
+  Families: Image Matrix 
+  Bounds: n=44.0563, s=43.7801, e=-74.9239, w=-75.8376, nsres=8.9914e-05, ewres=0.000118972
+  LLBounds: n=44.0563, s=43.7801, e=-74.9239, w=-75.8376
+UpdateDictionary(ogdi_capabilities) = 
+<?xml version="1.0" ?>
+<OGDI_Capabilities version="3.1">
+   <FeatureTypeList>
+      <Operations>
+         <Query/>
+      </Operations>
+      <FeatureType>
+         <Name>10M@2@CIB@DMAAC@0</Name>
+         <SRS>PROJ4:+proj=longlat</SRS>
+         <LatLonBoundingBox minx="-75.837563452"  miny="43.780051152"
+                            maxx="-74.923857868"  maxy="44.056265985" />
+         <BoundingBox minx="-75.837563452" miny="43.780051152"
+                      maxx="-74.923857868" maxy="44.056265985"
+                      resx="0.000118972" resy="0.000089914" />
+         <Family>Matrix</Family>
+         <Family>Image</Family>
+      </FeatureType>
+   </FeatureTypeList>
+</OGDI_Capabilities>
+
 Bounds
 north = 44.056266
 south = 43.780051

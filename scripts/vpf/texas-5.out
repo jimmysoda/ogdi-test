@@ -31,11 +31,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="libref@libref("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>libreft@libref(*)</Name>
@@ -44,11 +44,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="libreft@libref("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -61,11 +61,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="tileref@tileref("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>tilereft@tileref(*)</Name>
@@ -74,11 +74,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="tilereft@tileref("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -91,11 +91,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="markersp@bnd("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>polbndl@bnd(*)</Name>
@@ -104,11 +104,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="polbndl@bnd("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>polbnda@bnd(*)</Name>
@@ -117,11 +117,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="polbnda@bnd("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>bndtxt@bnd(*)</Name>
@@ -130,11 +130,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="bndtxt@bnd("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -147,11 +147,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="elevp@elev("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>contourl@elev(*)</Name>
@@ -160,11 +160,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="contourl@elev("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -177,11 +177,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="wellsprp@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>aquedctl@hydro(*)</Name>
@@ -190,11 +190,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="aquedctl@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>coastl@hydro(*)</Name>
@@ -203,11 +203,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="coastl@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>daml@hydro(*)</Name>
@@ -216,11 +216,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="daml@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>watrcrsl@hydro(*)</Name>
@@ -229,11 +229,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="watrcrsl@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>coasta@hydro(*)</Name>
@@ -242,11 +242,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="coasta@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>dama@hydro(*)</Name>
@@ -255,11 +255,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="dama@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>inunda@hydro(*)</Name>
@@ -268,11 +268,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="inunda@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>lakeresa@hydro(*)</Name>
@@ -281,11 +281,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="lakeresa@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>watrcrsa@hydro(*)</Name>
@@ -294,11 +294,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="watrcrsa@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>hydrotxt@hydro(*)</Name>
@@ -307,11 +307,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="hydrotxt@hydro("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -324,11 +324,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="extractp@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>obstrp@ind(*)</Name>
@@ -337,11 +337,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="obstrp@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>processp@ind(*)</Name>
@@ -350,11 +350,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="processp@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>storagep@ind(*)</Name>
@@ -363,11 +363,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="storagep@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>towerp@ind(*)</Name>
@@ -376,11 +376,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="towerp@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>disposea@ind(*)</Name>
@@ -389,11 +389,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="disposea@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>processa@ind(*)</Name>
@@ -402,11 +402,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="processa@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>indtxt@ind(*)</Name>
@@ -415,11 +415,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="indtxt@ind("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -432,11 +432,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="embankl@phys("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>embanka@phys(*)</Name>
@@ -445,11 +445,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="embanka@phys("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>phystxt@phys(*)</Name>
@@ -458,11 +458,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="phystxt@phys("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -475,11 +475,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="buildp@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>ruinsp@pop(*)</Name>
@@ -488,11 +488,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="ruinsp@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>builda@pop(*)</Name>
@@ -501,11 +501,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="builda@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>builtupa@pop(*)</Name>
@@ -514,11 +514,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="builtupa@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>landmrka@pop(*)</Name>
@@ -527,11 +527,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="landmrka@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>mobilea@pop(*)</Name>
@@ -540,11 +540,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="mobilea@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>sporta@pop(*)</Name>
@@ -553,11 +553,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="sporta@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>poptxt@pop(*)</Name>
@@ -566,11 +566,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="poptxt@pop("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -583,11 +583,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="fordc@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>bridgel@trans(*)</Name>
@@ -596,11 +596,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="bridgel@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>pierl@trans(*)</Name>
@@ -609,11 +609,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="pierl@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>railrdl@trans(*)</Name>
@@ -622,11 +622,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="railrdl@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>roadl@trans(*)</Name>
@@ -635,11 +635,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="roadl@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>traill@trans(*)</Name>
@@ -648,11 +648,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="traill@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>aerofaca@trans(*)</Name>
@@ -661,11 +661,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="aerofaca@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>runwaya@trans(*)</Name>
@@ -674,11 +674,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="runwaya@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>transtxt@trans(*)</Name>
@@ -687,11 +687,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="transtxt@trans("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -704,11 +704,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="commp@util("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>pumpingp@util(*)</Name>
@@ -717,11 +717,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="pumpingp@util("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>pipel@util(*)</Name>
@@ -730,11 +730,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="pipel@util("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>powerl@util(*)</Name>
@@ -743,11 +743,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="powerl@util("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>telel@util(*)</Name>
@@ -756,11 +756,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="telel@util("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
     <FeatureTypeList>
@@ -773,11 +773,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="grassa@veg("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>orcharda@veg(*)</Name>
@@ -786,11 +786,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="orcharda@veg("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
       <FeatureType>
         <Name>treesa@veg(*)</Name>
@@ -799,11 +799,11 @@ UpdateDictionary(ogdi_capabilities) =
         <QueryExpression qe_prefix="treesa@veg("
                          qe_suffix=")"
                          qe_format="restricted_where" />
-        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
-                            maxx="-97.500000000"  maxy="31.250000000" />
-        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
-                        maxx="-97.500000000"  maxy="31.250000000"
-                        x_res="0.010000000" y_res="0.010000000" />
+        <LatLonBoundingBox minx="-97.750000000"  miny="31.000000000"
+                           maxx="-97.500000000"  maxy="31.250000000" />
+        <BoundingBox minx="-97.750000000"  miny="31.000000000"
+                     maxx="-97.500000000"  maxy="31.250000000"
+                     resx="0.010000000"  resy="0.010000000" />
       </FeatureType>
     </FeatureTypeList>
   </FeatureTypeList>

@@ -7,9 +7,9 @@ GLTP=gltp:/rpf$TEST_DATA/rpf/ftdrum/rpf
 rm -f info.log
 
 # ----------------------------------------------------------------------------
-# Matrix view of RPF file.
+# Matrix view of RPF file / with capabilties
 
-$OGDI_INFO -u $GLTP -f Matrix -l '10M@2@CIB@DMAAC@0' -sf 100 -dl > info.log
+$OGDI_INFO -u $GLTP -cap -dict ogdi_capabilities -f Matrix -l '10M@2@CIB@DMAAC@0' -sf 100 -dl > info.log
 
 ../test_comp.sh info.log rpf-ftdrum-1
 
