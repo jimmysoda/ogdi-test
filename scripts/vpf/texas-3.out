@@ -1,0 +1,177 @@
+Projection = `+proj=longlat +datum=nad83'
+Global Bounds
+north = 31.250000
+south = 31.000000
+east = -97.500000
+west = -97.750000
+ns_res = 0.009615
+ew_res = 0.009615
+Field 0: id  (Integer) 10.0
+Field 1: f_code  (Char) 5.0
+Field 2: acc  (Smallint) 5.0
+Field 3: ela  (Smallint) 5.0
+Field 4: mcc  (Smallint) 5.0
+Field 5: zv2  (Smallint) 5.0
+Field 6: tile_id  (Smallint) 5.0
+Field 7: end_id  (Integer) 10.0
+Object ID:2
+Object Attributes:1 { CA030 } 1 1 30 315 1 1 
+0: (-97.730865 , 31.249809)
+
+Object ID:3
+Object Attributes:2 { CA030 } 1 1 30 282 1 2 
+0: (-97.648827 , 31.244461)
+
+Object ID:4
+Object Attributes:3 { CA030 } 1 1 30 264 1 3 
+0: (-97.559731 , 31.227964)
+
+Object ID:5
+Object Attributes:4 { CA030 } 1 1 30 292 1 4 
+0: (-97.618187 , 31.222538)
+
+Object ID:6
+Object Attributes:5 { CA030 } 1 1 30 273 1 5 
+0: (-97.579292 , 31.211792)
+
+Object ID:7
+Object Attributes:6 { CA030 } 1 1 30 305 1 6 
+0: (-97.682930 , 31.206640)
+
+Object ID:8
+Object Attributes:7 { CA030 } 1 1 30 254 1 7 
+0: (-97.740051 , 31.197023)
+
+Object ID:9
+Object Attributes:8 { CA030 } 1 1 30 271 1 8 
+0: (-97.597847 , 31.196785)
+
+Object ID:10
+Object Attributes:9 { CA030 } 1 1 30 233 1 9 
+0: (-97.520477 , 31.182846)
+
+Object ID:11
+Object Attributes:10 { CA030 } 1 1 30 275 1 10 
+0: (-97.621155 , 31.177116)
+
+Object ID:12
+Object Attributes:11 { CA030 } 1 1 30 306 1 11 
+0: (-97.721733 , 31.174793)
+
+Object ID:13
+Object Attributes:12 { CA030 } 1 1 30 251 1 12 
+0: (-97.549156 , 31.168259)
+
+Object ID:14
+Object Attributes:13 { CA030 } 1 1 30 294 1 13 
+0: (-97.653107 , 31.166475)
+
+Object ID:15
+Object Attributes:14 { CA030 } 1 1 30 320 1 14 
+0: (-97.735100 , 31.157673)
+
+Object ID:16
+Object Attributes:15 { CA030 } 1 1 30 309 1 15 
+0: (-97.684372 , 31.155376)
+
+Object ID:17
+Object Attributes:16 { CA030 } 1 1 30 227 1 16 
+0: (-97.517212 , 31.152897)
+
+Object ID:18
+Object Attributes:17 { CA030 } 1 1 30 309 1 17 
+0: (-97.713547 , 31.150501)
+
+Object ID:19
+Object Attributes:18 { CA030 } 1 1 30 287 1 18 
+0: (-97.626839 , 31.149048)
+
+Object ID:20
+Object Attributes:19 { CA030 } 1 1 30 251 1 19 
+0: (-97.558319 , 31.134876)
+
+Object ID:21
+Object Attributes:20 { CA030 } 1 1 30 294 1 20 
+0: (-97.645531 , 31.132202)
+
+Object ID:22
+Object Attributes:21 { CA030 } 1 1 30 284 1 21 
+0: (-97.623611 , 31.127171)
+
+Object ID:23
+Object Attributes:22 { CA030 } 1 1 30 262 1 22 
+0: (-97.664261 , 31.126207)
+
+Object ID:24
+Object Attributes:23 { CA030 } 1 1 30 246 1 23 
+0: (-97.550179 , 31.112577)
+
+Object ID:25
+Object Attributes:24 { CA030 } 1 1 30 232 1 24 
+0: (-97.519897 , 31.108555)
+
+Object ID:26
+Object Attributes:25 { CA030 } 1 1 30 244 1 25 
+0: (-97.548088 , 31.100016)
+
+Object ID:27
+Object Attributes:26 { CA030 } 1 1 30 259 1 26 
+0: (-97.683578 , 31.096527)
+
+Object ID:28
+Object Attributes:27 { CA030 } 1 1 30 294 1 27 
+0: (-97.746124 , 31.080294)
+
+Object ID:29
+Object Attributes:28 { CA030 } 1 1 30 243 1 28 
+0: (-97.613167 , 31.067268)
+
+Object ID:30
+Object Attributes:29 { CA030 } 1 1 30 196 1 29 
+0: (-97.501884 , 31.065662)
+
+Object ID:31
+Object Attributes:30 { CA030 } 1 1 30 273 1 30 
+0: (-97.726646 , 31.064440)
+
+Object ID:32
+Object Attributes:31 { CA030 } 1 1 30 252 1 31 
+0: (-97.547119 , 31.055758)
+
+Object ID:33
+Object Attributes:32 { CA030 } 1 1 30 253 1 32 
+0: (-97.569496 , 31.049809)
+
+Object ID:34
+Object Attributes:33 { CA030 } 1 1 30 325 1 33 
+0: (-97.749695 , 31.042513)
+
+Object ID:35
+Object Attributes:34 { CA030 } 1 1 30 287 1 34 
+0: (-97.652832 , 31.036507)
+
+Object ID:36
+Object Attributes:35 { CA030 } 1 1 30 269 1 35 
+0: (-97.734772 , 31.022181)
+
+Object ID:37
+Object Attributes:36 { CA030 } 1 1 30 193 1 36 
+0: (-97.521187 , 31.017138)
+
+Object ID:38
+Object Attributes:37 { CA030 } 1 1 30 203 1 37 
+0: (-97.541039 , 31.011642)
+
+Object ID:39
+Object Attributes:38 { CA030 } 1 1 30 233 1 38 
+0: (-97.684853 , 31.006620)
+
+Object ID:40
+Object Attributes:39 { CA030 } 1 1 30 235 1 39 
+0: (-97.558151 , 31.003546)
+
+Object ID:41
+Object Attributes:40 { CA030 } 1 1 30 233 1 40 
+0: (-97.695755 , 31.002378)
+
+Object Count = 40
