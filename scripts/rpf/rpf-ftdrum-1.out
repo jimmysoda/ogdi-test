@@ -12,8 +12,10 @@ Version: `3.1'
 Layer 0: 10M@2@CIB@DMAAC@0
   SRS: +proj=longlat
   Families: Image Matrix 
-  Bounds: n=44.0563, s=43.7801, e=-74.9239, w=-75.8376, nsres=8.9914e-05, ewres=0.000118972
-  LLBounds: n=44.0563, s=43.7801, e=-74.9239, w=-75.8376
+  Bounds: n=44.0563, s=43.7801, nsres=-74.9239
+          e=-75.8376, w=0.0001, ewres=0.000118972
+  LLBounds: n=44.05626598500000, s=43.78005115200000
+            e=-74.92385786800000, w=-75.83756345200000
 UpdateDictionary(ogdi_capabilities) = 
 <?xml version="1.0" ?>
 <OGDI_Capabilities version="3.1">
