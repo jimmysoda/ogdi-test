@@ -20,6 +20,13 @@ $OGDI_INFO -u $GLTP -f Matrix -l 'DTED(RAM)' -sf 8 -dl > info.log
 
 ../test_comp.sh info.log dted-toronto-2
 
+# ----------------------------------------------------------------------------
+# Run test of Image access.
+
+$OGDI_INFO -u $GLTP -f Image -l 'DTED(RAM)' -sf 8 -dl > info.log
+
+../test_comp.sh info.log dted-toronto-3
+
 
 
 
