@@ -135,7 +135,7 @@ Abs_vert_units: Meters
 :Rel_vert_acc Unknown
 :Rel_vert_units: N/A
 Comments: Additional descriptions of data lineage are available in the documentation table associated with this data quality table (called LINEAGE.DOC).
-} } } {  { family libref class {Library Reference} {<Grassland>displaymetadata { { libref { Library Linear Features } }  { libref { Library Linear Features } }  { libreft { Library Names } }  } { 
+} } } {  { family libref class {Library Reference} {<Grassland>displaymetadata { { libref { Library Linear Features } }  { libreft { Library Names } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     AP030 =  Road                      
@@ -147,7 +147,7 @@ VALUE DESCRIPTION TABLE (char.vdt)
     BA010 =  Coastline/Shoreline       
     FA000 =  Administrative Boundary   
     ZD045 =  Text Description          
-} } }  { family tileref class {Tile Reference} {<Grassland>displaymetadata { { tileref { Tile Extents } }  { tileref { Tile Extents } }  { tilereft { Tile Names } }  } {nodata} } }  { family bnd class {Boundaries} {<Grassland>displaymetadata { { markersp { Markers } }  { markersp { Markers } }  { polbndl { Political Boundaries } }  { polbnda { Administrative Areas } }  { bndtxt { Boundary Coverage Text } }  } { 
+} } }  { family tileref class {Tile Reference} {<Grassland>displaymetadata { { tileref { Tile Extents } }  { tilereft { Tile Names } }  } {nodata} } }  { family bnd class {Boundaries} {<Grassland>displaymetadata { { markersp { Markers } }  { polbndl { Political Boundaries } }  { polbnda { Administrative Areas } }  { bndtxt { Boundary Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     AL025 =  Cairn                          
@@ -216,7 +216,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                            
                9 =  Red-Brown                       
               12 =  Magenta                         
-} } }  { family elev class {Elevation} {<Grassland>displaymetadata { { elevp { Spot Elevations } }  { elevp { Spot Elevations } }  { contourl { Elevation Contours } }  } { 
+} } }  { family elev class {Elevation} {<Grassland>displaymetadata { { elevp { Spot Elevations } }  { contourl { Elevation Contours } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     CA030 =  Spot Elevation        
@@ -280,7 +280,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                            
                9 =  Red-Brown                       
               12 =  Magenta                         
-} } }  { family hydro class {Hydrography} {<Grassland>displaymetadata { { wellsprp { Wells and Springs } }  { wellsprp { Wells and Springs } }  { aquedctl { Aqueduct Line Features } }  { coastl { Coastlines } }  { daml { Dam Line Features } }  { watrcrsl { Water Courses } }  { coasta { Coastal Areas } }  { dama { Dam Area Features } }  { inunda { Land Subject to Inundation } }  { lakeresa { Lakes and Reservoirs } }  { watrcrsa { Water Courses Area Features } }  { hydrotxt { Hydrography Coverage Text } }  } { 
+} } }  { family hydro class {Hydrography} {<Grassland>displaymetadata { { wellsprp { Wells and Springs } }  { aquedctl { Aqueduct Line Features } }  { coastl { Coastlines } }  { daml { Dam Line Features } }  { watrcrsl { Water Courses } }  { coasta { Coastal Areas } }  { dama { Dam Area Features } }  { inunda { Land Subject to Inundation } }  { lakeresa { Lakes and Reservoirs } }  { watrcrsa { Water Courses Area Features } }  { hydrotxt { Hydrography Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     BI010 =  Cistern                       
@@ -566,7 +566,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                                
                9 =  Red-Brown                                           
               12 =  Magenta                                             
-} } }  { family ind class {Industry} {<Grassland>displaymetadata { { extractp { Mines/Quarries } }  { extractp { Mines/Quarries } }  { obstrp { Obstructions } }  { processp { Processing/Treatment Sites } }  { storagep { Tanks and Water Towers } }  { towerp { Non-Communication Towers } }  { disposea { Disposal Sites } }  { processa { Processing/Treatment Plants } }  { indtxt { Industry Coverage Text } }  } { 
+} } }  { family ind class {Industry} {<Grassland>displaymetadata { { extractp { Mines/Quarries } }  { obstrp { Obstructions } }  { processp { Processing/Treatment Sites } }  { storagep { Tanks and Water Towers } }  { towerp { Non-Communication Towers } }  { disposea { Disposal Sites } }  { processa { Processing/Treatment Plants } }  { indtxt { Industry Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     AM020 =  Grain Bin/Silo                       
@@ -892,7 +892,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                                  
                9 =  Red-Brown                                             
               12 =  Magenta                                               
-} } }  { family phys class {Physiography} {<Grassland>displaymetadata { { embankl { Cuts and Embankments/Fills } }  { embankl { Cuts and Embankments/Fills } }  { embanka { Embankment/Fill } }  { phystxt { Physiography Coverage Text } }  } { 
+} } }  { family phys class {Physiography} {<Grassland>displaymetadata { { embankl { Cuts and Embankments/Fills } }  { embanka { Embankment/Fill } }  { phystxt { Physiography Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     BJ060 =  Ice Peak/Nunatak                
@@ -1062,7 +1062,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                          
                9 =  Red-Brown                                     
               12 =  Magenta                                       
-} } }  { family pop class {Population} {<Grassland>displaymetadata { { buildp { Building Point Features } }  { buildp { Building Point Features } }  { ruinsp { Ruins Sites } }  { builda { Building Area Features } }  { builtupa { Built-Up Areas } }  { landmrka { Parks } }  { mobilea { Mobile Home/Mobile Home Park } }  { sporta { Sport Field Area } }  { poptxt { Population Coverage Text } }  } { 
+} } }  { family pop class {Population} {<Grassland>displaymetadata { { buildp { Building Point Features } }  { ruinsp { Ruins Sites } }  { builda { Building Area Features } }  { builtupa { Built-Up Areas } }  { landmrka { Parks } }  { mobilea { Mobile Home/Mobile Home Park } }  { sporta { Sport Field Area } }  { poptxt { Population Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     AL015 =  Buildings                     
@@ -1508,7 +1508,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                           
                9 =  Red-Brown                                      
               12 =  Magenta                                        
-} } }  { family trans class {Transportation} {<Grassland>displaymetadata { { fordc { Ford Sites } }  { fordc { Ford Sites } }  { bridgel { Bridge/Overpasses } }  { pierl { Pier/Wharf/Quay } }  { railrdl { Railroads and Sidings } }  { roadl { Roads } }  { traill { Trails } }  { aerofaca { Airport/Airfield } }  { runwaya { Runway Area } }  { transtxt { Transportation Coverage Text } }  } { 
+} } }  { family trans class {Transportation} {<Grassland>displaymetadata { { fordc { Ford Sites } }  { bridgel { Bridge/Overpasses } }  { pierl { Pier/Wharf/Quay } }  { railrdl { Railroads and Sidings } }  { roadl { Roads } }  { traill { Trails } }  { aerofaca { Airport/Airfield } }  { runwaya { Runway Area } }  { transtxt { Transportation Coverage Text } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     GB005 =  Airport/Airfield                 
@@ -1909,7 +1909,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                                 
                9 =  Red-Brown                                            
               12 =  Magenta                                              
-} } }  { family util class {Utilities} {<Grassland>displaymetadata { { commp { Communication Towers } }  { commp { Communication Towers } }  { pumpingp { Pumping Stations } }  { pipel { Pipelines } }  { powerl { Power Transmission Lines } }  { telel { Telephone/Telegraph Lines } }  } { 
+} } }  { family util class {Utilities} {<Grassland>displaymetadata { { commp { Communication Towers } }  { pumpingp { Pumping Stations } }  { pipel { Pipelines } }  { powerl { Power Transmission Lines } }  { telel { Telephone/Telegraph Lines } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     AT010 =  Disk/Dish                      
@@ -2052,7 +2052,7 @@ VALUE DESCRIPTION TABLE (int.vdt)
                4 =  Blue                                                 
                9 =  Red-Brown                                            
               12 =  Magenta                                              
-} } }  { family veg class {Vegetation} {<Grassland>displaymetadata { { grassa { Grasslands } }  { grassa { Grasslands } }  { orcharda { Orchards/Vineyards } }  { treesa { Trees } }  } { 
+} } }  { family veg class {Vegetation} {<Grassland>displaymetadata { { grassa { Grasslands } }  { orcharda { Orchards/Vineyards } }  { treesa { Trees } }  } { 
 VALUE DESCRIPTION TABLE (char.vdt)
 
     EC020 =  Oasis                  
