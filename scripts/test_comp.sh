@@ -22,7 +22,7 @@ if test ! -f $OLD_FILE ; then
 fi
 
 rm -f $DIFF_FILE
-diff $OLD_FILE $NEW_FILE | head -200 > $DIFF_FILE
+diff -b $OLD_FILE $NEW_FILE | head -200 > $DIFF_FILE
 if test ! -s $DIFF_FILE ; then
   echo "Test $TEST_NAME passed."
   rm -f $DIFF_FILE $NEW_FILE
