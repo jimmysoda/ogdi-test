@@ -813,17 +813,21 @@ Version: `3.1'
 Layer 0: libref@libref(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="libref@libref("
     suffix=")"
     format="restricted_where"
 Layer 1: libreft@libref(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="libreft@libref("
     suffix=")"
@@ -831,17 +835,21 @@ Layer 1: libreft@libref(*)
 Layer 2: tileref@tileref(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="tileref@tileref("
     suffix=")"
     format="restricted_where"
 Layer 3: tilereft@tileref(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="tilereft@tileref("
     suffix=")"
@@ -849,8 +857,10 @@ Layer 3: tilereft@tileref(*)
 Layer 4: markersp@bnd(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="markersp@bnd("
     suffix=")"
@@ -858,8 +868,10 @@ Layer 4: markersp@bnd(*)
 Layer 5: polbndl@bnd(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="polbndl@bnd("
     suffix=")"
@@ -867,17 +879,21 @@ Layer 5: polbndl@bnd(*)
 Layer 6: polbnda@bnd(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="polbnda@bnd("
     suffix=")"
     format="restricted_where"
 Layer 7: bndtxt@bnd(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="bndtxt@bnd("
     suffix=")"
@@ -885,8 +901,10 @@ Layer 7: bndtxt@bnd(*)
 Layer 8: elevp@elev(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="elevp@elev("
     suffix=")"
@@ -894,8 +912,10 @@ Layer 8: elevp@elev(*)
 Layer 9: contourl@elev(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="contourl@elev("
     suffix=")"
@@ -903,8 +923,10 @@ Layer 9: contourl@elev(*)
 Layer 10: wellsprp@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="wellsprp@hydro("
     suffix=")"
@@ -912,8 +934,10 @@ Layer 10: wellsprp@hydro(*)
 Layer 11: aquedctl@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="aquedctl@hydro("
     suffix=")"
@@ -921,8 +945,10 @@ Layer 11: aquedctl@hydro(*)
 Layer 12: coastl@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="coastl@hydro("
     suffix=")"
@@ -930,8 +956,10 @@ Layer 12: coastl@hydro(*)
 Layer 13: daml@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="daml@hydro("
     suffix=")"
@@ -939,8 +967,10 @@ Layer 13: daml@hydro(*)
 Layer 14: watrcrsl@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="watrcrsl@hydro("
     suffix=")"
@@ -948,8 +978,10 @@ Layer 14: watrcrsl@hydro(*)
 Layer 15: coasta@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="coasta@hydro("
     suffix=")"
@@ -957,8 +989,10 @@ Layer 15: coasta@hydro(*)
 Layer 16: dama@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="dama@hydro("
     suffix=")"
@@ -966,8 +1000,10 @@ Layer 16: dama@hydro(*)
 Layer 17: inunda@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="inunda@hydro("
     suffix=")"
@@ -975,8 +1011,10 @@ Layer 17: inunda@hydro(*)
 Layer 18: lakeresa@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="lakeresa@hydro("
     suffix=")"
@@ -984,17 +1022,21 @@ Layer 18: lakeresa@hydro(*)
 Layer 19: watrcrsa@hydro(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="watrcrsa@hydro("
     suffix=")"
     format="restricted_where"
 Layer 20: hydrotxt@hydro(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="hydrotxt@hydro("
     suffix=")"
@@ -1002,8 +1044,10 @@ Layer 20: hydrotxt@hydro(*)
 Layer 21: extractp@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="extractp@ind("
     suffix=")"
@@ -1011,8 +1055,10 @@ Layer 21: extractp@ind(*)
 Layer 22: obstrp@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="obstrp@ind("
     suffix=")"
@@ -1020,8 +1066,10 @@ Layer 22: obstrp@ind(*)
 Layer 23: processp@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="processp@ind("
     suffix=")"
@@ -1029,8 +1077,10 @@ Layer 23: processp@ind(*)
 Layer 24: storagep@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="storagep@ind("
     suffix=")"
@@ -1038,8 +1088,10 @@ Layer 24: storagep@ind(*)
 Layer 25: towerp@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="towerp@ind("
     suffix=")"
@@ -1047,8 +1099,10 @@ Layer 25: towerp@ind(*)
 Layer 26: disposea@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="disposea@ind("
     suffix=")"
@@ -1056,17 +1110,21 @@ Layer 26: disposea@ind(*)
 Layer 27: processa@ind(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="processa@ind("
     suffix=")"
     format="restricted_where"
 Layer 28: indtxt@ind(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="indtxt@ind("
     suffix=")"
@@ -1074,8 +1132,10 @@ Layer 28: indtxt@ind(*)
 Layer 29: embankl@phys(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="embankl@phys("
     suffix=")"
@@ -1083,17 +1143,21 @@ Layer 29: embankl@phys(*)
 Layer 30: embanka@phys(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="embanka@phys("
     suffix=")"
     format="restricted_where"
 Layer 31: phystxt@phys(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="phystxt@phys("
     suffix=")"
@@ -1101,8 +1165,10 @@ Layer 31: phystxt@phys(*)
 Layer 32: buildp@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="buildp@pop("
     suffix=")"
@@ -1110,8 +1176,10 @@ Layer 32: buildp@pop(*)
 Layer 33: ruinsp@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="ruinsp@pop("
     suffix=")"
@@ -1119,8 +1187,10 @@ Layer 33: ruinsp@pop(*)
 Layer 34: builda@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="builda@pop("
     suffix=")"
@@ -1128,8 +1198,10 @@ Layer 34: builda@pop(*)
 Layer 35: builtupa@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="builtupa@pop("
     suffix=")"
@@ -1137,8 +1209,10 @@ Layer 35: builtupa@pop(*)
 Layer 36: landmrka@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="landmrka@pop("
     suffix=")"
@@ -1146,8 +1220,10 @@ Layer 36: landmrka@pop(*)
 Layer 37: mobilea@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="mobilea@pop("
     suffix=")"
@@ -1155,17 +1231,21 @@ Layer 37: mobilea@pop(*)
 Layer 38: sporta@pop(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="sporta@pop("
     suffix=")"
     format="restricted_where"
 Layer 39: poptxt@pop(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="poptxt@pop("
     suffix=")"
@@ -1173,8 +1253,10 @@ Layer 39: poptxt@pop(*)
 Layer 40: fordc@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="fordc@trans("
     suffix=")"
@@ -1182,8 +1264,10 @@ Layer 40: fordc@trans(*)
 Layer 41: bridgel@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="bridgel@trans("
     suffix=")"
@@ -1191,8 +1275,10 @@ Layer 41: bridgel@trans(*)
 Layer 42: pierl@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="pierl@trans("
     suffix=")"
@@ -1200,8 +1286,10 @@ Layer 42: pierl@trans(*)
 Layer 43: railrdl@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="railrdl@trans("
     suffix=")"
@@ -1209,8 +1297,10 @@ Layer 43: railrdl@trans(*)
 Layer 44: roadl@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="roadl@trans("
     suffix=")"
@@ -1218,8 +1308,10 @@ Layer 44: roadl@trans(*)
 Layer 45: traill@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="traill@trans("
     suffix=")"
@@ -1227,8 +1319,10 @@ Layer 45: traill@trans(*)
 Layer 46: aerofaca@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="aerofaca@trans("
     suffix=")"
@@ -1236,17 +1330,21 @@ Layer 46: aerofaca@trans(*)
 Layer 47: runwaya@trans(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="runwaya@trans("
     suffix=")"
     format="restricted_where"
 Layer 48: transtxt@trans(*)
   SRS: +proj=longlat +datum=nad83
-  Families: 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Families: Text 
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="transtxt@trans("
     suffix=")"
@@ -1254,8 +1352,10 @@ Layer 48: transtxt@trans(*)
 Layer 49: commp@util(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="commp@util("
     suffix=")"
@@ -1263,8 +1363,10 @@ Layer 49: commp@util(*)
 Layer 50: pumpingp@util(*)
   SRS: +proj=longlat +datum=nad83
   Families: Point 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="pumpingp@util("
     suffix=")"
@@ -1272,8 +1374,10 @@ Layer 50: pumpingp@util(*)
 Layer 51: pipel@util(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="pipel@util("
     suffix=")"
@@ -1281,8 +1385,10 @@ Layer 51: pipel@util(*)
 Layer 52: powerl@util(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="powerl@util("
     suffix=")"
@@ -1290,8 +1396,10 @@ Layer 52: powerl@util(*)
 Layer 53: telel@util(*)
   SRS: +proj=longlat +datum=nad83
   Families: Line 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="telel@util("
     suffix=")"
@@ -1299,8 +1407,10 @@ Layer 53: telel@util(*)
 Layer 54: grassa@veg(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="grassa@veg("
     suffix=")"
@@ -1308,8 +1418,10 @@ Layer 54: grassa@veg(*)
 Layer 55: orcharda@veg(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="orcharda@veg("
     suffix=")"
@@ -1317,8 +1429,10 @@ Layer 55: orcharda@veg(*)
 Layer 56: treesa@veg(*)
   SRS: +proj=longlat +datum=nad83
   Families: Area 
-  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
-  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Bounds: n=31.2500, s=31.0000, nsres=0.01
+          e=-97.5000, w=-97.7500, ewres=0.01
+  LLBounds: n=31.25000000000000, s=31.00000000000000
+            e=-97.50000000000000, w=-97.75000000000000
   Query Expression:
     prefix="treesa@veg("
     suffix=")"
