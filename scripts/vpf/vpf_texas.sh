@@ -2,7 +2,7 @@
 
 . ../setup.sh
 
-TEXASH_URL=gltp:/vrf$TEST_DATA/vpf/vm2alv2/texash
+TEXASH_URL=gltp:$OGDI_HOST/vrf$TEST_DATA/vpf/vm2alv2/texash
 
 rm -f temp_texas
 

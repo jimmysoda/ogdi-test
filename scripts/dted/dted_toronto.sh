@@ -2,7 +2,7 @@
 
 . ../setup.sh
 
-GLTP=gltp:/dted$TEST_DATA/dted/toronto/dted
+GLTP=gltp:$OGDI_HOST/dted$TEST_DATA/dted/toronto/dted
 
 rm -f info.log
 
