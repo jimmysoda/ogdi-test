@@ -29,9 +29,9 @@ $OGDI_INFO -no-dict -u $TEXASH_URL -r 31.25 31.20 -97.5 -97.55 -f Line -l 'conto
 ../test_comp.sh temp_texas texas-2
 
 # ----------------------------------------------------------------------------
-# Test Points.
+# Test Points, and capabilities documents.
 
-$OGDI_INFO -no-dict -u $TEXASH_URL -f Point -l 'elevp@elev(*)' -dl > temp_texas
+$OGDI_INFO -no-dict -u $TEXASH_URL -dict ogdi_capabilities -dict ogdi_server_capabilities -f Point -l 'elevp@elev(*)' -dl > temp_texas
 
 ../test_comp.sh temp_texas texas-3
 
