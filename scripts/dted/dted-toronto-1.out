@@ -8,6 +8,34 @@ ns_res = 0.008264
 ew_res = 0.008264
 UpdateDictionary = 
 DTED
+Dumping Dictionary `ogdi_server_capabilities':
+UpdateDictionary = 
+<?xml version="1.0" ?>
+<OGDI_Capabilities version="3.1">
+</OGDI_Capabilities>
+
+Dumping Dictionary `ogdi_capabilities':
+UpdateDictionary = 
+<?xml version="1.0" ?>
+<OGDI_Capabilities version="3.1">
+   <FeatureTypeList>
+      <Operations>
+         <Query/>
+      </Operations>
+      <FeatureType>
+         <Name>DTED(RAM)</Name>
+         <SRS>PROJ4:+proj=longlat</SRS>
+         <LongLatBoundingBox minx="-80.000000000"  miny="43.000000000"
+                             maxx="-79.000000000"  maxy="44.000000000" />
+         <SRSBoundingBox minx="-80.000000000"  miny="43.000000000"
+                         maxx="-79.000000000"  maxy="44.000000000"
+                         x_res="0.008264463" y_res="0.008264463" />
+         <Family>Matrix</Family>
+         <Family>Image</Family>
+      </FeatureType>
+   </FeatureTypeList>
+</OGDI_Capabilities>
+
 RasterInfo:
 mincat = 1
 maxcat = 216
