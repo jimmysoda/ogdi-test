@@ -4,8 +4,8 @@ north = 31.250000
 south = 31.000000
 east = -97.500000
 west = -97.750000
-ns_res = 0.009615
-ew_res = 0.009615
+ns_res = 0.010000
+ew_res = 0.010000
 Field 0: id  (Integer) 10.0
 Field 1: f_code  (Char) 5.0
 Field 2: hqc  (Smallint) 5.0
