@@ -1,0 +1,1326 @@
+Projection = `+proj=longlat +datum=nad83'
+Global Bounds
+north = 31.250000
+south = 31.000000
+east = -97.500000
+west = -97.750000
+ns_res = 0.010000
+ew_res = 0.010000
+UpdateDictionary(ogdi_server_capabilities) = 
+<?xml version="1.0" ?>
+<OGDI_Capabilities version="3.1">
+  <Capability>
+    <Extension>ogdi_unique_identity</Extension>
+  </Capability>
+</OGDI_Capabilities>
+
+UpdateDictionary(ogdi_capabilities) = 
+<?xml version="1.0" ?>
+<OGDI_Capabilities version="3.1">
+  <Capability>
+    <Extension>ogdi_unique_identity</Extension>
+  </Capability>
+  <FeatureTypeList>
+    <FeatureTypeList>
+      <Name>libref</Name>
+      <Title>Library Reference</Title>
+      <FeatureType>
+        <Name>libref@libref(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="libref@libref("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>libreft@libref(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="libreft@libref("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>tileref</Name>
+      <Title>Tile Reference</Title>
+      <FeatureType>
+        <Name>tileref@tileref(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="tileref@tileref("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>tilereft@tileref(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="tilereft@tileref("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>bnd</Name>
+      <Title>Boundaries</Title>
+      <FeatureType>
+        <Name>markersp@bnd(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="markersp@bnd("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>polbndl@bnd(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="polbndl@bnd("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>polbnda@bnd(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="polbnda@bnd("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>bndtxt@bnd(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="bndtxt@bnd("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>elev</Name>
+      <Title>Elevation</Title>
+      <FeatureType>
+        <Name>elevp@elev(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="elevp@elev("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>contourl@elev(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="contourl@elev("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>hydro</Name>
+      <Title>Hydrography</Title>
+      <FeatureType>
+        <Name>wellsprp@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="wellsprp@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>aquedctl@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="aquedctl@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>coastl@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="coastl@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>daml@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="daml@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>watrcrsl@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="watrcrsl@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>coasta@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="coasta@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>dama@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="dama@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>inunda@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="inunda@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>lakeresa@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="lakeresa@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>watrcrsa@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="watrcrsa@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>hydrotxt@hydro(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="hydrotxt@hydro("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>ind</Name>
+      <Title>Industry</Title>
+      <FeatureType>
+        <Name>extractp@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="extractp@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>obstrp@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="obstrp@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>processp@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="processp@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>storagep@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="storagep@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>towerp@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="towerp@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>disposea@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="disposea@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>processa@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="processa@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>indtxt@ind(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="indtxt@ind("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>phys</Name>
+      <Title>Physiography</Title>
+      <FeatureType>
+        <Name>embankl@phys(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="embankl@phys("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>embanka@phys(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="embanka@phys("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>phystxt@phys(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="phystxt@phys("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>pop</Name>
+      <Title>Population</Title>
+      <FeatureType>
+        <Name>buildp@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="buildp@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>ruinsp@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="ruinsp@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>builda@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="builda@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>builtupa@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="builtupa@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>landmrka@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="landmrka@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>mobilea@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="mobilea@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>sporta@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="sporta@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>poptxt@pop(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="poptxt@pop("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>trans</Name>
+      <Title>Transportation</Title>
+      <FeatureType>
+        <Name>fordc@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="fordc@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>bridgel@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="bridgel@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>pierl@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="pierl@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>railrdl@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="railrdl@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>roadl@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="roadl@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>traill@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="traill@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>aerofaca@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="aerofaca@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>runwaya@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="runwaya@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>transtxt@trans(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Text</Family>
+        <QueryExpression qe_prefix="transtxt@trans("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>util</Name>
+      <Title>Utilities</Title>
+      <FeatureType>
+        <Name>commp@util(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="commp@util("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>pumpingp@util(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Point</Family>
+        <QueryExpression qe_prefix="pumpingp@util("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>pipel@util(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="pipel@util("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>powerl@util(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="powerl@util("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>telel@util(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Line</Family>
+        <QueryExpression qe_prefix="telel@util("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+    <FeatureTypeList>
+      <Name>veg</Name>
+      <Title>Vegetation</Title>
+      <FeatureType>
+        <Name>grassa@veg(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="grassa@veg("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>orcharda@veg(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="orcharda@veg("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+      <FeatureType>
+        <Name>treesa@veg(*)</Name>
+        <SRS>PROJ4:+proj=longlat +datum=nad83</SRS>
+        <Family>Area</Family>
+        <QueryExpression qe_prefix="treesa@veg("
+                         qe_suffix=")"
+                         qe_format="restricted_where" />
+        <LongLatBoundingBox minx="-97.750000000"  miny="31.000000000"
+                            maxx="-97.500000000"  maxy="31.250000000" />
+        <SRSBoundingBox minx="-97.750000000"  miny="31.000000000"
+                        maxx="-97.500000000"  maxy="31.250000000"
+                        x_res="0.010000000" y_res="0.010000000" />
+      </FeatureType>
+    </FeatureTypeList>
+  </FeatureTypeList>
+</OGDI_Capabilities>
+
+Version: `3.1'
+Layer 0: libref@libref(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="libref@libref("
+    suffix=")"
+    format="restricted_where"
+Layer 1: libreft@libref(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="libreft@libref("
+    suffix=")"
+    format="restricted_where"
+Layer 2: tileref@tileref(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="tileref@tileref("
+    suffix=")"
+    format="restricted_where"
+Layer 3: tilereft@tileref(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="tilereft@tileref("
+    suffix=")"
+    format="restricted_where"
+Layer 4: markersp@bnd(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="markersp@bnd("
+    suffix=")"
+    format="restricted_where"
+Layer 5: polbndl@bnd(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="polbndl@bnd("
+    suffix=")"
+    format="restricted_where"
+Layer 6: polbnda@bnd(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="polbnda@bnd("
+    suffix=")"
+    format="restricted_where"
+Layer 7: bndtxt@bnd(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="bndtxt@bnd("
+    suffix=")"
+    format="restricted_where"
+Layer 8: elevp@elev(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="elevp@elev("
+    suffix=")"
+    format="restricted_where"
+Layer 9: contourl@elev(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="contourl@elev("
+    suffix=")"
+    format="restricted_where"
+Layer 10: wellsprp@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="wellsprp@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 11: aquedctl@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="aquedctl@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 12: coastl@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="coastl@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 13: daml@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="daml@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 14: watrcrsl@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="watrcrsl@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 15: coasta@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="coasta@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 16: dama@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="dama@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 17: inunda@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="inunda@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 18: lakeresa@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="lakeresa@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 19: watrcrsa@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="watrcrsa@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 20: hydrotxt@hydro(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="hydrotxt@hydro("
+    suffix=")"
+    format="restricted_where"
+Layer 21: extractp@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="extractp@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 22: obstrp@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="obstrp@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 23: processp@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="processp@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 24: storagep@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="storagep@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 25: towerp@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="towerp@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 26: disposea@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="disposea@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 27: processa@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="processa@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 28: indtxt@ind(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="indtxt@ind("
+    suffix=")"
+    format="restricted_where"
+Layer 29: embankl@phys(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="embankl@phys("
+    suffix=")"
+    format="restricted_where"
+Layer 30: embanka@phys(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="embanka@phys("
+    suffix=")"
+    format="restricted_where"
+Layer 31: phystxt@phys(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="phystxt@phys("
+    suffix=")"
+    format="restricted_where"
+Layer 32: buildp@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="buildp@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 33: ruinsp@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="ruinsp@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 34: builda@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="builda@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 35: builtupa@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="builtupa@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 36: landmrka@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="landmrka@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 37: mobilea@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="mobilea@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 38: sporta@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="sporta@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 39: poptxt@pop(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="poptxt@pop("
+    suffix=")"
+    format="restricted_where"
+Layer 40: fordc@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="fordc@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 41: bridgel@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="bridgel@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 42: pierl@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="pierl@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 43: railrdl@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="railrdl@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 44: roadl@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="roadl@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 45: traill@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="traill@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 46: aerofaca@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="aerofaca@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 47: runwaya@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="runwaya@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 48: transtxt@trans(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="transtxt@trans("
+    suffix=")"
+    format="restricted_where"
+Layer 49: commp@util(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="commp@util("
+    suffix=")"
+    format="restricted_where"
+Layer 50: pumpingp@util(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Point 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="pumpingp@util("
+    suffix=")"
+    format="restricted_where"
+Layer 51: pipel@util(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="pipel@util("
+    suffix=")"
+    format="restricted_where"
+Layer 52: powerl@util(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="powerl@util("
+    suffix=")"
+    format="restricted_where"
+Layer 53: telel@util(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Line 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="telel@util("
+    suffix=")"
+    format="restricted_where"
+Layer 54: grassa@veg(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="grassa@veg("
+    suffix=")"
+    format="restricted_where"
+Layer 55: orcharda@veg(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="orcharda@veg("
+    suffix=")"
+    format="restricted_where"
+Layer 56: treesa@veg(*)
+  SRS: +proj=longlat +datum=nad83
+  Families: Area 
+  Bounds: n=31.25, s=31, e=-97.5, w=-97.75, nsres=0.01, ewres=0.01
+  LLBounds: n=31.25, s=31, e=-97.5, w=-97.75
+  Query Expression:
+    prefix="treesa@veg("
+    suffix=")"
+    format="restricted_where"
+Check Extension ogdi_unique_identity: enabled
