@@ -1,0 +1,101 @@
+Digital Terrain Elevation Data (DTED(REGISTERED TRADEMARK)) Level 0
+30 Arc Second Terrain Data
+
+In support of military applications, the National Imagery 
+and Mapping Agency (NIMA) has developed a standard digital 
+dataset (Digital Terrain Elevation Data (DTED(REGISTERED TRADEMARK)) Level 0")  
+which may be of value to scientific, technical, and other 
+communities .  This DTED(REGISTERED TRADEMARK) product is a uniform matrix of 
+terrain elevation values which provides basic quantitative 
+data for systems and applications that require terrain 
+elevation, slope, and/or surface roughness information.  
+DTED(REGISTERED TRADEMARK) Level 0 elevation post spacing is 30 arc second 
+(nominally one kilometer).  In addition to this discrete 
+elevation file, a separate binary file provides the minimum, 
+maximum, and mean elevation values computed in 30 arc second 
+square areas (organized by one degree cell).  Finally, DTED(REGISTERED TRADEMARK) 
+Level 0 contains the NIMA Digital Mean Elevation Data (DMED) 
+providing minimum, maximum, and mean elevation values and 
+standard deviation for each 15 minute by 15 minute area in a 
+one degree cell.  This initial release is a "thinned" data 
+file extracted from the NIMA DTED(REGISTERED TRADEMARK) Level 1 holdings in 
+combination with other publicly releasable data.  As such, 
+this version of DTED(REGISTERED TRADEMARK) Level 0 is a step toward a worldwide 
+digital terrain dataset.  Efforts to fully populate a 
+worldwide DTED(REGISTERED TRADEMARK) Level 0 dataset continue and formal public 
+release in CD-ROM form is projected for early 1997.  The 
+current DTED(REGISTERED TRADEMARK) Level 0 and subsequent releases will be 
+updated consistent with established NIMA production 
+maintenance procedures. 
+
+Support from select international mapping organizations was 
+instrumental in the generation of the Level 0 dataset.  The 
+following nations have contributed data to this effort:  
+Belgium, Denmark, Germany, Italy, Netherlands, Norway, 
+Spain, and the United Kingdom.  In many cases, higher 
+resolution terrain data of the above listed nations is 
+available for public sale.  If you are interested in 
+obtaining such data over any of the above listed countries, 
+please contact the civil mapping authorities of the 
+individual nation directly.
+
+This data set may be freely copied, manipulated, adapted or 
+combined with other geospatial information as desired by the 
+user.  It allows a gross representation of the Earth's 
+surface for general modeling and assessment activities.  
+Such reduced resolution data is not intended and should not 
+be used for automated flight guidance or other precision 
+activity involving the safety of the public.  Public domain 
+software capable of displaying, manipulating and analyzing 
+such data will be available through the U.S. Geological 
+Survey, Branch of Information Services, Box 25286, Denver, 
+Colorado 80225 (1-800-435-7627 or 1-800-HELP-MAP).
+
+The data contained in DTED(REGISTERED TRADEMARK) Level 0 is a derivative set 
+only, and does not represent the entire Department of 
+Defense (DoD) archive of terrain data.  In making this data 
+available to the general public, the NIMA in no way alters 
+the controlled status of the remaining archives.  Technical 
+support or general assistance with respect to DTED(REGISTERED TRADEMARK) Level 0 
+is available only to U.S. Government users.  The NIMA 
+requests that products developed using DTED(REGISTERED TRADEMARK) Level 0 credit 
+the source with the following statement, “This product was 
+developed using DTED(REGISTERED TRADEMARK) Level 0, a product of the National 
+Imagery and Mapping Agency.”
+
+Warranty Disclaimers and Requirements: 
+
+	a.  Under 10 U.S.C. § 456, no civil action may be 
+brought against the United States on the basis of the 
+content of data prepared or disseminated by either the 
+former Defense Mapping Agency (DMA) or NIMA.  
+
+	b.  DTED(REGISTERED TRADEMARK) Level 0 was developed to meet only the 
+internal requirements of the DoD.  DTED(REGISTERED TRADEMARK) Level 0 is provided 
+“as is,” and no warranty, express or implied, including but 
+not limited to the implied warranties of merchantability and 
+fitness for particular purpose or arising by statute or 
+otherwise in law or from a course of dealing or usage in 
+trade, is made by the NIMA as to the accuracy and 
+functioning of the product.
+
+	c.  Neither the NIMA nor its personnel will be liable for 
+any claims, losses, or damages arising from or connected with 
+the use of DTED(REGISTERED TRADEMARK) Level 0.  The user agrees to hold harmless 
+the United States National Imagery and Mapping Agency.  The 
+user’s sole and exclusive remedy is to stop using DTED(REGISTERED TRADEMARK) Level 
+0.
+
+	d.  For any products developed using DTED(REGISTERED TRADEMARK) Level 0, the 
+NIMA requires a disclaimer that use of DTED(REGISTERED TRADEMARK) Level 0 does 
+not indicate endorsement or approval of those products by 
+either the Secretary of Defense, the former Defense Mapping 
+Agency, or the National Imagery and Mapping Agency.  
+Pursuant to the United States Code, 10 U.S.C.  445, the 
+name of the Defense Mapping Agency, the initials DMA, the 
+seal of the Defense Mapping Agency, the name of the National 
+Imagery and Mapping Agency, the initials NIMA, the seal of 
+the National Imagery and Mapping Agency, or any colorable 
+imitation thereof shall not be used to imply approval, 
+endorsement, or authorization of a product without prior 
+written permission from United States Secretary of Defense.
