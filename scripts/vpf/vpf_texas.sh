@@ -20,7 +20,7 @@ $OGDI_INFO -u $TEXASH_URL -f Area -l 'contourl@elev(*)' -dl > temp_texas
 # Test lines and that double quoted query values work properly.
 # http://sourceforge.net/bugs/?func=detailbug&bug_id=122597&group_id=11181
 
-$OGDI_INFO -no-dict -u $TEXASH_URL -r 31.25 31.20 -97.5 -97.55 -f Line -l 'contourl@elev(hqc="1")' -dl > temp_texas
+$OGDI_INFO -no-dict -u $TEXASH_URL -r 31.25 31.20 -97.5 -97.55 -f Line -l 'contourl@elev(hqc="1")' -sf 3 -dl > temp_texas
 
 ../test_comp.sh temp_texas texas-2
 
